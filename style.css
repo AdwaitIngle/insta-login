@@ -1,0 +1,161 @@
+#display{
+    transform: translate(600px,180px);
+}
+.container{
+    transform: translate(0px,-750px);
+}
+/*#first_img{
+    transform: translate(615px,-450px);
+    animation: first 6s linear;
+}
+*/
+#images{
+    background:url(https://www.instagram.com/static/images/homepage/screenshots/screenshot4.png/a4fd825e3d49.png) no-repeat center fixed;
+    background-size: 100%;
+    width: 285px;
+    height: 670px;
+    transform: translate(615px,-470px);
+    animation: going 18s linear;
+    animation-iteration-count: infinite;
+}
+#chitra{
+    transform: translate(480px,790px);
+}
+
+@keyframes going {
+    0%{
+        background: url(https://www.instagram.com/static/images/homepage/screenshots/screenshot2.png/4d62acb667fb.png)no-repeat center fixed;
+        background-size: 100%;
+        width: 285px;
+        height: 670px;
+        transform: translate(615px,-470px);
+        
+        
+    }
+    40%{
+        background: url(https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png)no-repeat center fixed;
+        background-size: 100%;
+        width: 285px;
+        height: 670px;
+        transform: translate(615px,-470px);
+    }   
+    70%{
+        background: url(https://www.instagram.com/static/images/homepage/screenshots/screenshot3.png/94edb770accf.png)no-repeat center fixed;
+        background-size: 100%;
+        width: 285px;
+        height: 670px;
+        transform: translate(615px,-470px);
+       
+    }
+}
+
+.box{
+    transform: translate(950px,-1130px);
+    border: 1px solid grey;
+    width: 450px;
+    height: 500px;
+    background-color: whitesmoke;
+}
+.inner{
+    position: absolute;
+    justify-content: center;
+    transform: translate(45px,0px);
+}
+#insta{
+    padding: 10px;
+    margin-top: 40px;
+    width: 250px;
+    transform: translate(50px,0px);
+}
+
+#name{
+    border: 1px groove grey;
+    width:350px;
+    height: 45px;
+    border-radius: 4px;
+    margin: 4px;
+    
+
+}
+#pass{
+    border: 1px groove grey;
+    width:350px;
+    height: 45px;
+    border-radius: 4px;
+    margin: 4px;
+}
+.btn{
+    border-radius: 4px;
+    background-color: rgb(83, 119, 208);
+    width:350px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px;
+}
+.btn:hover{
+    background-color: rgb(71, 41, 146);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding: 15px;
+}
+.log{
+    color: rgb(58, 58, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.face{
+    transform: translate(10px,10px);
+}
+.box2{
+    transform: translate(940px,-1130px);
+    border: 1px solid grey;
+    margin: 10px;
+    width: 450px;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+    background-color: whitesmoke;
+    
+}
+.acc{
+    color: black;
+
+}
+.box2 strong{
+    color: rgb(46, 145, 222);
+}
+.box3{
+    transform: translate(400px,-1130px);
+}
+.box3 p{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#word{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.appstore{
+    width: 170px;
+    height: 52px;
+    margin: 4px;
+}
+.playstore{
+    width: 170px;
+    height: 50px;
+    margin: 4px;
+}
+.apps{
+    justify-content: center;
+    margin: 4px;
+}
+#sign:hover{
+    text-decoration: underline;
+}
+

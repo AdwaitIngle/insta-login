@@ -1,0 +1,32 @@
+#display{
+    transform: translate(600px,180px);
+}
+#first_img{
+    transform: translate(615px,-450px);
+    animation: first 2s linear;
+}
+#second_img{
+    transform: translate(615px,-1073px);
+    animation: second 2s linear;
+}
+#third_img{
+    transform: translate(615px,-1693px);
+    animation: third 2s linear;
+}
+#fourth_img{
+    transform: translate(615px,-2320px);
+    animation: four 2s linear;
+}
+.container{
+    transform: translate(0px,-110px);
+}
+
+<img class="w-80" id="display" src="/images/Framer_ Templates.png" alt="">
+    <div class="images">
+       
+     <img class="w-72" id="first_img" src="https://www.instagram.com/static/images/homepage/screenshots/screenshot2.png/4d62acb667fb.png" alt="">
+    
+    <img class="w-72" id="second_img"  src="https://www.instagram.com/static/images/homepage/screenshots/screenshot4.png/a4fd825e3d49.png" alt="">
+    <img class="w-72" id="third_img"  src="https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png" alt="">
+    <img class="w-72" id="fourth_img" src="https://www.instagram.com/static/images/homepage/screenshots/screenshot3.png/94edb770accf.png" alt="">
+    </div>
